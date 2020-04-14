@@ -1,0 +1,22 @@
+/*
+
+This file holds all styles related to the home page, mostly specific paddings
+and margins depending on content. It will only be `link`ed to the home.html
+file.
+
+*/
+
+/* --- MAIN --- */
+
+main {
+    padding-bottom: 80px;
+}
+
+article:first-child h2 {
+    margin: 70px 0 27px;
+}
+
+article:last-child h2 {
+    letter-spacing: 0.5px;
+    margin: 61px 0 36px;
+}

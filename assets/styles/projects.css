@@ -1,0 +1,39 @@
+/*
+
+This file holds all styles related to the projects page, mostly specific paddings
+and margins depending on content. It will only be `link`ed to the projects.html
+file.
+
+*/
+
+/* --- MAIN --- */
+
+h2 {
+    margin: 70px 0 33px 5px;
+}
+
+h2::before,
+h2::after {
+    margin-left: 26px;
+    margin-right: 28px;
+}
+
+article img {
+    margin: 29px 0;
+}
+
+h3 {
+    margin-top: 54px;
+}
+
+article > article:first-of-type h3 {
+    margin-top: 42px;
+}
+
+article > article:nth-of-type(3) img {
+    margin-top: 35px;
+}
+
+article > article:last-of-type {
+    margin-bottom: 1px;
+}

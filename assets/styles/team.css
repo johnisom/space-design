@@ -1,0 +1,31 @@
+/*
+
+This file holds all styles related to the team page, mostly specific paddings
+and margins depending on content. It will only be `link`ed to the team.html
+file.
+
+*/
+
+/* --- MAIN --- */
+
+main {
+    padding-top: 85px;
+    padding-bottom: 84px;
+}
+
+h2 {
+    margin: 29px 0;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 127px auto;
+    width: 74%;
+}
+
+figcaption {
+    color: #3e59b2;
+    font-size: 24px;
+    margin-top: 26px;
+}
