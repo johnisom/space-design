@@ -24,8 +24,61 @@ main ul {
     width: 74%;
 }
 
+li > figure {
+    cursor: pointer;
+}
+
 figcaption {
     color: #3e59b2;
     font-size: 24px;
     margin-top: 26px;
+}
+
+.modal, .modal-layer {
+    display: none;
+}
+
+.modal {
+    background-color: #fff;
+    left: 20%;
+    min-width: 600px;
+    padding: 150px 80px 100px;
+    position: absolute;
+    right: 20%;
+    text-align: left;
+    top: 100%;
+    z-index: 2;
+}
+
+.modal-layer {
+    background-color: #444a;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.modal .close {
+    background: transparent url('../images/icon_close.png') 0 0 no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999999px;
+    top: 10px;
+    width: 30px;
+}
+
+.modal figure * {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+}
+
+.modal p {
+    margin: 20px 0 0;
+    width: 100%;
 }
